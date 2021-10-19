@@ -2,3 +2,21 @@
     font-size: 30px;
     align-items: left;
 }
+  h1{
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    position: relative;
+    margin: 20px 60px;
+  }
+  h1::after {
+    content: "";
+    width: 100px;
+    position: absolute;
+    margin: 0 auto;
+    height: 3px;
+    background: #0fa85c;
+    left: 0;
+    right: 0;
+    bottom: -10px;
+  }

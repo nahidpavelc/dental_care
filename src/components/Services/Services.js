@@ -17,10 +17,11 @@ const Services = () => {
             <div class="card bg-dark text-dark mb-5">
                 <img src={banner1} class="card-img" alt="..." />
                 <div class="card-img-overlay">
-                    <h1 class="card-title banner-txt"> Our <span className="">Service</span> </h1>
+
                 </div>
             </div>
             <div className="container">
+                <h1 class="card-title banner-txt mb-5"> Our <span className="text-success">Service</span> </h1>
                 <div class="row row-cols-1 row-cols-md-3 g-4">
                     {
                         services.map(service => <Service
