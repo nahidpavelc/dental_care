@@ -1,29 +1,23 @@
 import { initializeApp } from '@firebase/app';
-import { getAuth, signInWithPopup, GoogleAuthProvider, createUserWithEmailAndPassword, signInWithEmailAndPassword, sendEmailVerification,sendPasswordResetEmail } from "firebase/auth";
+import './Login.css';
+import { getAuth, signInWithPopup, createUserWithEmailAndPassword, signInWithEmailAndPassword, sendEmailVerification,sendPasswordResetEmail } from "firebase/auth";
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import initializeAuthentication from '../../Firebase/firebase.init';
+import useFirebase from '../../hooks/useFirebase';
 
 initializeAuthentication();
 
-const googleProvider = new GoogleAuthProvider();
-
 
 const Login = () => {
+    const {signInUsingGoogle} = useFirebase()
+
     const [email, setEmail] = useState('');
     const [password, setPassword] = useState('');
     const [error, setError] = useState('');
     const [isLogin, setIsLogin] = useState(false);
 
     const auth = getAuth();
-
-    const handleGoogleSignIn = () => {
-        signInWithPopup(auth, googleProvider)
-            .then(result => {
-                const user = result.user;
-                console.log(user);
-            })
-    }
 
     const toggleLogin = e => {
         setIsLogin(e.target.checked);
@@ -92,6 +86,7 @@ const Login = () => {
 
 
     return (
+
         <div >
             <div className="container py-5 h-100">
                 <div className="row d-flex justify-content-center align-items-center h-100">
@@ -106,7 +101,7 @@ const Login = () => {
 
                                     <div className="text-danger">{error}</div>
 
-                                    <button onClick={handleResetPassword} type="button" class="btn btn-outline-success">Reset Password</button>
+                                    <button onClick={handleResetPassword} type="button" class="btn btn-outline-success resetbtn">Reset Password</button>
 
                                     {/* <!-- Checkbox --> */}
                                     <div className="form-check d-flex justify-content-start mb-4">
@@ -123,7 +118,7 @@ const Login = () => {
                                     <button className="btn btn-success btn-lg btn-block" type="submit">{isLogin ? 'Login' : 'Register'}</button>
                                 </form>
                                 <hr className="my-4" />
-                                <button onClick={handleGoogleSignIn} className="btn btn-lg btn-block btn-primary mb-3" type="submit"><i className="fab fa-google me-2"></i> Sign up with google</button>
+                                <button onClick={signInUsingGoogle} className="btn btn-lg btn-block btn-primary mb-3" type="submit"><i className="fab fa-google me-2"></i> Sign up with google</button>
                                 <button className="btn btn-lg btn-block btn-primary mb-2" type="submit"><i className="fab fa-facebook-f me-2"></i>Sign up with facebook</button>
                             </div>
 
