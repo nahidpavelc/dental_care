@@ -9,6 +9,7 @@ import NotFound from './components/NotFound/NotFound';
 import Booking from './components/Booking/Booking';
 import Login from './components/Login/Login';
 import Signup from './components/Signup/Signup';
+import PrivateRoute from './components/PrivateRoute/PrivateRoute';
 
 function App() {
   return (
@@ -23,9 +24,9 @@ function App() {
           <Route path="/home">
             <Home></Home>
           </Route>
-          <Route path="/services">
+          <PrivateRoute path="/services">
             <Services></Services>
-          </Route>
+          </PrivateRoute>
           <Route path="/about">
             <About></About>
           </Route>

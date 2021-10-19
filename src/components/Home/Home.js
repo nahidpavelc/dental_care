@@ -9,6 +9,8 @@ import ser3 from '../../images/services/service (3).jpg'
 import den1 from '../../images/dentist/dentist (1).jpg'
 import den2 from '../../images/dentist/dentist (2).jpg'
 import den3 from '../../images/dentist/dentist (3).jpg'
+import PrivateRoute from '../PrivateRoute/PrivateRoute';
+import Services from '../Services/Services';
 
 
 const Home = () => {
@@ -197,6 +199,7 @@ const Home = () => {
                                 <div className="card-body">
                                     <h5 className="card-title">Dr.Peter Joe</h5>
                                     <p className="card-text">Dentists</p>
+
                                     <button type="button" className="btn btn-outline-success btn-sm">Appoint Now</button>
                                 </div>
                             </div>

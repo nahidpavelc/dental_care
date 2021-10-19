@@ -32,6 +32,7 @@ const Header = () => {
                             <Nav.Link as={Link} to="/About">About us</Nav.Link>
                         </Nav>
                         <Nav>
+                            {/* {user?.email && <span >{user.photoURL}</span>} */}
                             {user?.email && <button type="button" class="btn btn-secondary btn-lg">{user.displayName}</button>}
                             <Nav.Link as={Link} to="/login"><Button variant="outline-success">Signup/login</Button>{' '}</Nav.Link>
                             <span></span>
