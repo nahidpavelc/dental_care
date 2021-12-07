@@ -1,0 +1,26 @@
+*{
+    font-style: none;
+}
+.card-icon{
+    padding: none;
+    font-size: 40px;
+}
+.card-footer{
+    background-color: white;
+    border-top: none;
+}
+.footer-icon{
+    padding-right: 10px;
+    color: black;
+    
+}
+.footer-icon:hover{
+    color: rgb(53, 202, 78);
+}
+.font-style{
+    text-decoration: none;
+    color: black;
+}
+.font-style:hover{
+    color: rgb(53, 202, 78);
+}

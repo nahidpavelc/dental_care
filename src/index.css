@@ -1,0 +1,32 @@
+body {
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+.card{
+  border: none;
+}
+h2 {
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: bold;
+  position: relative;
+  margin: 40px 60px;
+}
+h2::after {
+  content: "";
+  width: 100px;
+  position: absolute;
+  margin: 0 auto;
+  height: 3px;
+  background: #158b54;
+  left: 0;
+  right: 0;
+  bottom: -10px;
+}
