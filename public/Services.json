@@ -1,44 +1,44 @@
 [
     {
         "id": 1,
-        "name": "Dental Implant",
-        "price": "2000",
-        "description": "Donec varius sodales orci. Class aptent taciti sociosqu inceptos content.",
-        "img": "https://images.unsplash.com/photo-1600170311833-c2cf5280ce49?ixid=MnwxMjA3fDB8MHxzZWFyY2h8Nnx8ZGVudGFsfGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
+        "name": "Dental Bonding",
+        "price": "$200",
+        "description": "Dental bonding is a technique used to correct imperfections with your teeth to give you a better-looking smile. Bonding is used to repair chipped teeth, decayed teeth, and cracked teeth. Bonding involves applying a tooth-colored resin material to the teeth and hardening it with a light. This bonds the material to the teeth to improve a person's smile. ",
+        "img": "https://media.istockphoto.com/photos/african-couple-embracing-smiling-looking-at-camera-posing-on-grey-picture-id1230617704?b=1&k=20&m=1230617704&s=170667a&w=0&h=tfq1fe6JWsId-a83sjaNYW7j33MkJdkPeClSezfByr4="
     },
     {
         "id": 2,
-        "name": "Dental Implant",
-        "price": "2000",
-        "description": "Donec varius sodales orci. Class aptent taciti sociosqu inceptos content.",
-        "img": "https://images.unsplash.com/photo-1600170311833-c2cf5280ce49?ixid=MnwxMjA3fDB8MHxzZWFyY2h8Nnx8ZGVudGFsfGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
+        "name": "Dental Crowns",
+        "price": "$300",
+        "description": "A dental crown is a dental prosthesis which replaces the visible part of a tooth. A dental crown functions to strengthen teeth, restore their original shape, and improve their appearance. Dental crowns are also used to hold dental bridges in place and cover dental implants.",
+        "img": "https://media.istockphoto.com/photos/happy-mother-and-children-daughters-embracing-looking-at-camera-picture-id1191377825?b=1&k=20&m=1191377825&s=170667a&w=0&h=vubkQq85O6akEQMONyfPpO0pIzlVEk8NAm-GK2syc44="
     },
     {
         "id": 3,
-        "name": "Dental Implant",
-        "price": "2000",
-        "description": "Donec varius sodales orci. Class aptent taciti sociosqu inceptos content.",
-        "img": "https://images.unsplash.com/photo-1600170311833-c2cf5280ce49?ixid=MnwxMjA3fDB8MHxzZWFyY2h8Nnx8ZGVudGFsfGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
+        "name": "Bridgework",
+        "price": "$200",
+        "description": "A dental bridge is a structure between two dental crowns to fill the gap between missing teeth. A bridge can be supported by your teeth, implants, or a combination of teeth and implants. A dental bridge can restore your smile, improve your appearance, and take years off your look. Who doesn't want to look better- or younger?",
+        "img": "https://media.istockphoto.com/photos/maintaining-healthy-habits-together-picture-id688899934?b=1&k=20&m=688899934&s=170667a&w=0&h=ZnmzUvN26w36YVdL9K4YYUts2rRVkJJPDoV8M29y6EA="
     },
     {
         "id": 4,
-        "name": "Dental Implant",
-        "price": "2000",
-        "description": "Donec varius sodales orci. Class aptent taciti sociosqu inceptos content.",
-        "img": "https://images.unsplash.com/photo-1600170311833-c2cf5280ce49?ixid=MnwxMjA3fDB8MHxzZWFyY2h8Nnx8ZGVudGFsfGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
+        "name": "Cosmetic Fillings",
+        "price": "$100",
+        "description": " Cosmetic fillings, or tooth- colored fillings, are made of composite resin and glass particles. They are cemented onto the existing teeth using a bonding agent. Cosmetic fillings can improve the appearance of your smile. Unlike silver-colored fillings, cosmetic fillings look just like your natural teeth.",
+        "img": "https://media.istockphoto.com/photos/hope-concept-picture-id1250686730?b=1&k=20&m=1250686730&s=170667a&w=0&h=qdzBS7g4472dNe0og0jA0oK2N0ewZ5nmF5XyiaQ9spU="
     },
     {
         "id": 5,
-        "name": "Dental Implant",
-        "price": "2000",
-        "description": "Donec varius sodales orci. Class aptent taciti sociosqu inceptos content.",
-        "img": "https://images.unsplash.com/photo-1600170311833-c2cf5280ce49?ixid=MnwxMjA3fDB8MHxzZWFyY2h8Nnx8ZGVudGFsfGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
+        "name": "Teeth Cleanings",
+        "price": "$150",
+        "description": "You should visit the dentist every six months for teeth cleanings. Tartar is a hard buildup of plaque that forms on the teeth. Tartar forms below and above the gum line. The only way to remove tartar is to see a dentist for a professional teeth cleaning. Regular teeth cleanings are important to maintaining healthy teeth and gums.",
+        "img": "https://media.istockphoto.com/photos/maintaining-healthy-habits-together-picture-id688899934?b=1&k=20&m=688899934&s=170667a&w=0&h=ZnmzUvN26w36YVdL9K4YYUts2rRVkJJPDoV8M29y6EA="
     },
     {
         "id": 6,
-        "name": "Dental Implant",
-        "price": "2000",
-        "description": "Donec varius sodales orci. Class aptent taciti sociosqu inceptos content.",
+        "name": " Teeth Whitening",
+        "price": "$300",
+        "description": "Want a whiter smile? Your main options are at-home and in-office bleaching. At-home teeth whitening involves custom-made dental trays filled with hydrogen peroxide gel that you can use at home. For in-office bleaching, your dentist will combine hydrogen peroxide gel with a light source to speed up the whitening process.",
         "img": "https://images.unsplash.com/photo-1600170311833-c2cf5280ce49?ixid=MnwxMjA3fDB8MHxzZWFyY2h8Nnx8ZGVudGFsfGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
     }
 ]

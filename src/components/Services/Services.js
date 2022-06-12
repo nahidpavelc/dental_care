@@ -17,7 +17,6 @@ const Services = () => {
             <div class="card bg-dark text-dark mb-5">
                 <img src={banner1} class="card-img" alt="..." />
                 <div class="card-img-overlay">
-
                 </div>
             </div>
             <div className="container">

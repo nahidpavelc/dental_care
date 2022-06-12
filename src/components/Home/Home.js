@@ -11,6 +11,9 @@ import den2 from '../../images/dentist/dentist (2).jpg'
 import den3 from '../../images/dentist/dentist (3).jpg'
 import PrivateRoute from '../PrivateRoute/PrivateRoute';
 import Services from '../Services/Services';
+import { Nav } from 'react-bootstrap';
+import { Link } from 'react-router-dom';
+import { HashLink } from 'react-router-hash-link';
 
 
 const Home = () => {
@@ -24,7 +27,19 @@ const Home = () => {
                             <img src={caro1} className="d-block w-100 " alt="..." />
                             <div className="carousel-caption d-none d-md-block align-top">
                                 <h1 className="" style={{ color: '#191919' }}>Dental <span className="text-success">Care</span> </h1>
-                                <button type="button" className="btn btn-success btn-sm">Book an appointment</button>
+
+                                {/* <Link to={`/booking/${id}`}>
+                                    <button type="button" className="btn btn-success">Booking Now
+                                        <i className="fas fa-plus m-1"></i>
+                                    </button>
+                                </Link> */}
+
+                                <Nav.Link as={HashLink} to={`/services/`}>
+                                    <button type="button" className="btn btn-success btn-sm">Book an appointment
+                                    <i className="fas fa-plus m-1"></i>
+                                    </button>
+                                </Nav.Link>
+
                             </div>
                         </div>
                     </div>

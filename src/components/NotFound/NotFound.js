@@ -8,7 +8,7 @@ const NotFound = () => {
             <img style={{ width: '100%' }} src={notFound} alt="" />
             <Link to="/">
                 <div class="text-center">
-                    <button type="button" class="btn btn-success">Centered button</button>
+                    <button type="button" class="btn btn-success">Return</button>
                 </div>
             </Link>
         </div>

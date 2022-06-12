@@ -1,11 +1,17 @@
 import React from 'react';
+import banner1 from '../../images/banner/banner1.jpg'
 
 const About = () => {
     return (
         <div>
+            <div class="card bg-dark text-dark mb-5">
+                <img src={banner1} class="card-img" alt="..." />
+                <div class="card-img-overlay">
+                </div>
+            </div>
             <div className="container container-mar d-flex justify-content-around">
                 <div className="card mb-3 bo-remove" style={{ width: '540px;', }}>
-                    <h2>About <span className="text-success">US</span></h2>
+                    <h1>About <span className="text-success">US</span></h1>
                     <div className="row g-0">
                         <div className="col-md-6">
                             <img
